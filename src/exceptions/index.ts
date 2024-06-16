@@ -5,8 +5,8 @@ export class BaseHttpException extends Error {
 
   constructor(
     message: string,
-    errorCode: number,
     statusCode: number,
+    errorCode: number,
     errors: any,
   ) {
     super(message)

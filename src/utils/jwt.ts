@@ -11,7 +11,7 @@ import {
   TokenInvalidError,
 } from '../exceptions/exceptions'
 
-const SECRET = env.JWT_SECRET!
+const SECRET = env.AWS_ACCESS_KEY!
 
 interface JwtPayload {
   id: string

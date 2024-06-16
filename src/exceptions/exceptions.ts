@@ -195,7 +195,6 @@ export class PaymentDeclinedError extends BaseHttpException {
   }
 }
 
-
 // Custom Application-specific Errors
 export class CustomError extends BaseHttpException {
   constructor(message = 'Custom Error', errors: any = null) {
