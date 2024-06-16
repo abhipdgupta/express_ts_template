@@ -1,0 +1,9 @@
+/node_modules
+/dist
+.env
+.cache
+
+access.log
+error.log
+
+firebaseCredentialss.json
